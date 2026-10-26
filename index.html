@@ -47,6 +47,12 @@ footer{text-align:center;color:var(--muted);margin-top:30px}
 #intro h1{font-family:'Amiri',serif;color:var(--accent);font-size:clamp(36px,10vw,60px);margin:0 0 8px}
 #intro p{color:var(--muted);margin:0 0 28px}
 #music{position:fixed;left:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:5;width:48px;height:48px;padding:0;border-radius:50%;font-size:22px;margin:0;display:none;box-shadow:0 4px 14px rgba(224,84,111,.4)}
+.confess{background:linear-gradient(135deg,#ff6fa5,#ff4d8d 55%,#b36bff);border:0;color:#fff;text-align:center;box-shadow:0 14px 40px rgba(255,77,141,.38);position:relative;overflow:hidden}
+.confess::before,.confess::after{content:"💞";position:absolute;font-size:46px;opacity:.22}
+.confess::before{top:6px;right:12px}.confess::after{bottom:6px;left:12px}
+.confess h2{color:#fff;margin-bottom:8px}
+.confess .cdate{display:inline-block;background:rgba(255,255,255,.22);border:1px solid rgba(255,255,255,.55);border-radius:30px;padding:8px 22px;font-size:20px;font-weight:800}
+.confess .cheart{font-size:34px;display:block;animation:beat 1.4s infinite}
 </style>
 </head>
 <body>
@@ -71,6 +77,12 @@ footer{text-align:center;color:var(--muted);margin-top:30px}
   <p class="since" id="next"></p>
 </section>
 
+<section class="confess">
+  <span class="cheart">💖</span>
+  <h2>اعترفنا بحبنا</h2>
+  <div class="cdate">الأحد ٢٥ / ١٠ / ٢٠٢٦</div>
+</section>
+
 <section>
   <h2>كلمة ليكي يا نيجار</h2>
   <div class="letter">يا نيجار،
@@ -83,7 +95,7 @@ footer{text-align:center;color:var(--muted);margin-top:30px}
 <section>
   <h2>لحظاتنا</h2>
   <div class="timeline">
-    <div class="ev"><b>٤ أكتوبر ٢٠٢٦</b><p>بداية حكايتنا ✨</p></div>
+    <div class="ev"><b>٢٣ أكتوبر ٢٠٢٦</b><p>بداية حكايتنا ✨</p></div>
     <div class="ev"><b>أول خروجة</b><p>اكتب هنا تفاصيل أول مرة خرجنا فيها مع بعض</p></div>
     <div class="ev"><b>لحظة مش هننساها</b><p>اكتب هنا موقف حلو حصل بينا</p></div>
     <div class="ev"><b>وأكيد لسه الجاي أحلى</b><p>أحلامنا وخططنا مع بعض 🌙</p></div>
